@@ -48,7 +48,6 @@ def can_find_by_multiple_attributes
   # title == "Title"
   # release_date == 2000
   # director == "Me"
-  binding.pry
   Movie.find_by(title:"Title")
 end
 
